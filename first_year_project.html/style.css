@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: #ffffff;
+  border-bottom: 2px solid #2563eb;
+}
+
+.logo {
+  color: #2563eb;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  background: linear-gradient(to right, #2563eb, #1e40af);
+  color: white;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+}
+
+.hero-text span {
+  color: #ffdd57;
+}
+
+.hero-text p {
+  margin: 15px 0 25px;
+}
+
+.hero img {
+  width: 260px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+/* Button */
+.btn {
+  background: #ffdd57;
+  color: #000;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #facc15;
+}
+
+/* Sections */
+section {
+  padding: 70px 60px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  color: #1e40af;
+}
+
+/* HR Line */
+.section-line {
+  width: 80px;
+  height: 3px;
+  background-color: #2563eb;
+  border: none;
+  margin: 10px auto 30px;
+  border-radius: 5px;
+}
+
+section p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.skill {
+  padding: 12px 20px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.project {
+  width: 260px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.project h4 {
+  margin-bottom: 10px;
+  color: #2563eb;
+}
+
+/* Contact */
+.contact {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+  background: #1e40af;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
